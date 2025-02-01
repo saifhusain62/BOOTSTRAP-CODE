@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Accordion</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js" defer></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="accordion" id="accordionExample">
+            <!-- Accordion Item -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#item1" aria-expanded="true" aria-controls="item1">
+                        Accordion Heading 1
+                    </button>
+                </h2>
+                <div id="item1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, expedita!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <!-- Accordion Item -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#item1" aria-expanded="true" aria-controls="item1">
+                        Accordion Heading 2
+                    </button>
+                </h2>
+                <div id="item1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, expedita!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
